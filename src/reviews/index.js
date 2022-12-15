@@ -16,7 +16,6 @@ const Reviews = () => {
     */
     return (
         <>
-            <h1>Movies</h1>
             {currentUser != null &&
                 <div>
                     <h4>Welcome {currentUser.username}!</h4>
